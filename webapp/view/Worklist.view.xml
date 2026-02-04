@@ -31,11 +31,11 @@
                         key="all" />
                     <IconTabSeparator />
                     <IconTabFilter
-                        icon="sap-icon://message-success"
-                        count="{worklistView>/countAvailable}"
+                        icon="sap-icon://message-success" 
+                        count="{worklistView>/countAvailable}" 
                         iconColor="Positive"
                         text="{i18n>available}"
-                        key="available" />
+                        key="available" /> 
                     <IconTabFilter
                         icon="sap-icon://message-warning"
                         count="{worklistView>/countLowOnStock}"

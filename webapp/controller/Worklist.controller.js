@@ -188,15 +188,15 @@ sap.ui.define([
 
 
          _getCoulumnConfig: function() {
-            var aColumns = []
+            var aColumns = []    
 
-            aColumns.push({
+            aColumns.push({  
                 label: this.getResourceBundle().getText("productId"),
-                property: "ProductID",
-                type: EdmType.Number
-            });
+                property: "ProductID",  
+                type: EdmType.Number   
+            });  
 
-            aColumns.push({
+            aColumns.push({ 
                 label: this.getResourceBundle().getText("tableNameColumnTitle"),
                 property: "ProductName",
                 type: EdmType.String
@@ -208,8 +208,8 @@ sap.ui.define([
                 type: EdmType.String
             });
 
-            aColumns.push({
-                label: this.getResourceBundle().getText("supplier"),
+            aColumns.push({   
+                label: this.getResourceBundle().getText(" supplier"),
                 property: "Supplier/CompanyName",
                 type: EdmType.String
             });
