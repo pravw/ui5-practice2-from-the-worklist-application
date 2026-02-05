@@ -1,5 +1,3 @@
-
-
 <mvc:View
     controllerName="ui5.project3.controller.Worklistdetail"
     xmlns="sap.m"
